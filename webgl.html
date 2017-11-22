@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WebGl</title>
+  <style>
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    h1 {
+      color: skyblue;
+    }
+
+    canvas {
+      width: 600px;
+      height: 600px;
+    }
+
+    button {
+      margin: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>WebGL</h1>
+  <p>Image count: 0</p>
+  <canvas width="600" height="600"></canvas>
+  <div>
+    <button id="add10">Add 10 images</button>
+    <button id="add50">Add 50 images</button>
+    <button id="add100">Add 100 images</button>
+  </div>
+  <script src="./webgl.js"></script>
+</body>
+
+</html>
